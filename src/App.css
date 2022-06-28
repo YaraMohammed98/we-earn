@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -27,6 +28,93 @@
 .App-link {
   color: #61dafb;
 }
+
+.main-color{
+  color: #1DBCF3;
+}
+hr:not([size]) {
+  
+  height: 3px;
+  color: #1DBCF3;
+}
+.single-border{
+  border: 4px #1DBCF3 solid;
+  box-shadow: 1px 1px 10px #1DBCF3 ,-1px -1px 10px #1DBCF3; 
+}
+ol {counter-reset: item;}
+ol li {display: block;}
+ol li:before {content: counter(item) ". "; counter-increment: item; font-weight: bold;}
+
+.single-container{
+}
+.bg-lightgrey{
+  background-color: #cccccc;
+  }
+.bg-darkgrey{
+  background-color: #2B2D42;
+}  
+
+.dark-color{
+  background-color: #0E2B3D;
+}
+  
+.btn-invest{
+  color: #1DBCF3;
+  border: 3px #1DBCF3 solid;
+  text-decoration: none;
+}
+.btn-invest:hover {
+  color: white;
+  border: 3px white solid;
+  text-decoration: none;
+}
+
+.btn-main{
+  background-color: #1DBCF3;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+.btn-main:hover {
+  color: #1DBCF3;
+  background-color: white;
+
+}
+
+.header-item:hover {
+  color: #1DBCF3 !important ;
+}
+
+.profit-bg{
+  background-color: #EDF2F4;
+}
+
+.profit{
+  padding-top: 700px;
+}
+.profit-card{
+  border-radius: 25px;
+  overflow: hidden;
+}
+.profit-txt{
+  font-size: 18px;
+  
+}
+.btn-hover{
+  border:2px #1DBCF3 solid !important ;
+
+}
+.btn-hover:hover {
+  border:2px #1DBCF3 solid !important ;
+}
+.card-header{
+  background: url("./assets/images/cardheader.png") no-repeat  ;
+  background-size: cover;
+
+
+}
+
+
 
 @keyframes App-logo-spin {
   from {

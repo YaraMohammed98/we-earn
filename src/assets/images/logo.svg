@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151.526" height="119.916" viewBox="0 0 151.526 119.916">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="151.526" height="119.916" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0)">
+    <path id="Path_40" data-name="Path 40" d="M65.963.589,55.118,38.936,43.379,18.142H33.765l-12.3,20.794L10.845.589H0L15.093,54.365h9.839L38.516,31.222,51.652,54.365H61.714L77.031.589Z" fill="#fff"/>
+    <path id="Path_41" data-name="Path 41" d="M84.633.589V54.365h35.1v-9.95H95.031V28.2H117.28V18.142H95.031V10.315h25.714V.589Z" fill="#fff"/>
+    <path id="Path_42" data-name="Path 42" d="M13.042,63.788h22.6l-1.631,5.669H17.918L16.6,74.018H30.528l-1.687,5.864H14.918L12.2,89.33H27.662l-1.669,5.8H4.025Z" fill="#1dbcf3"/>
+    <path id="Path_43" data-name="Path 43" d="M57.623,63.788H50.635l-21.4,31.341h6.987l5.628-8.486H53.367L54,95.129h6.987ZM45.737,80.812l5.681-7.6,1.307,7.6Z" fill="#1dbcf3"/>
+    <g id="Group_16" data-name="Group 16">
+      <g id="Group_15" data-name="Group 15" clip-path="url(#clip-path)">
+        <path id="Path_44" data-name="Path 44" d="M85.675,78.763a11.48,11.48,0,0,0,7.174-7.181c1.239-4.3-1.5-7.794-6.126-7.794H74.155l-4.344,15.1-.141.491L65.138,95.13h6.526L76.01,80.023h2.4L85.751,95.13h7.714S87.6,82.7,85.675,78.763M83.4,74.018H77.738l1.312-4.561h5.663a1.717,1.717,0,0,1,1.793,2.28,3.391,3.391,0,0,1-3.1,2.281" fill="#1dbcf3"/>
+        <path id="Path_45" data-name="Path 45" d="M105.8,63.788h6.526L121.3,84.509,142.891,12.07h6.526L124.771,95.13h-6.527L109.1,75,103.309,95.13H96.783Z" fill="#1dbcf3"/>
+        <text id="_.FINANCE" data-name=".FINANCE" transform="translate(27.205 116.782)" fill="#c4d4eb" font-size="10.516" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" letter-spacing="0.36em">.</tspan><tspan y="0" letter-spacing="0.359em">F</tspan><tspan y="0" letter-spacing="0.36em">INANC</tspan><tspan y="0">E</tspan></text>
+        <path id="Path_46" data-name="Path 46" d="M149.378,0l-9.315,11.837,11.463,3.071Z" fill="#1dbcf3"/>
+      </g>
+    </g>
+  </g>
+</svg>
