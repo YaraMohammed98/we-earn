@@ -1,3 +1,8 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 .App {
   text-align: center;
@@ -45,6 +50,45 @@ ol {counter-reset: item;}
 ol li {display: block;}
 ol li:before {content: counter(item) ". "; counter-increment: item; font-weight: bold;}
 
+
+input[type="checkbox"] {
+	visibility: hidden;
+}
+input[type="checkbox"]:checked + label {
+  background-color: #1DBCF3;
+}
+input[type="checkbox"]:checked + label:before {
+  transform: translateX(28px);
+  background-color: #fff;
+}
+
+.toggle-label {
+	display: flex;
+	width: 57px;
+	height: 30px;
+	/* border: 5px solid; */
+  background-color: #000;
+	border-radius: 99em;
+	position: relative;
+	transition: transform .2s linear-in-out;
+	transform-origin: 50% 50%;
+	cursor: pointer;
+
+	
+}
+.toggle-label:before {
+  transition: transform .25s linear;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 2.5px;
+  left: 3px;
+}
+
 .single-container{
 }
 .bg-lightgrey{
@@ -57,7 +101,10 @@ ol li:before {content: counter(item) ". "; counter-increment: item; font-weight:
 .dark-color{
   background-color: #0E2B3D;
 }
-  
+.main-bg{
+  background-color: #1DBCF3;;
+}
+
 .btn-invest{
   color: #1DBCF3;
   border: 3px #1DBCF3 solid;
@@ -110,11 +157,61 @@ ol li:before {content: counter(item) ". "; counter-increment: item; font-weight:
 .card-header{
   background: url("./assets/images/cardheader.png") no-repeat  ;
   background-size: cover;
+}
 
+.header-bg{
+  background: transparent linear-gradient(265deg, #0E2B3D 0%, #040E17 100%) 0% 0% no-repeat padding-box;
+}
 
+.btn-secondary:hover{
+  background-color: #fff;
+  color:#2B2D42;
+}
+.btn-secondary{
+  border-radius: 25px;
+  border: 2px solid #2B2D42;;
+}
+
+.setting-image:hover{
+  background: url("./assets/images/setting-blue.svg") no-repeat  ;
+
+}
+.setting-image{
+  width:30px;
+  height:30px;
+  background: url("./assets/images/setting.svg") no-repeat  ;
+}
+
+.profile-btn:hover{
+  color:#1DBCF3;
+
+}
+.profile-btn{
+  text-decoration: none;
+  color:#2B2D42;
+}
+
+.profile-mini-container{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 64px #00000029;
+  border: 1px solid #70707033;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.profile-up{
+  box-shadow: 0px 3px 64px #00000029;
 }
 
 
+.reinvest-span{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.fa-rotate:hover{
+  color:#1DBCF3
+}
 
 @keyframes App-logo-spin {
   from {

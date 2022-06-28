@@ -1,9 +1,9 @@
 import reqSvgs from "../module";
-
-function Navbar() {
+import { Link } from 'react-router-dom';
+function Navbar({flag}) {
   return (
 
-    <nav className="navbar  navbar-expand-lg  py-3  header-bg">
+    <nav className={`navbar  navbar-expand-lg  py-3 ${flag ? "header-bg":""}`}>
     <div className="container">
       <img src={reqSvgs["logo.svg"]} style={{width:"100px"}} className="mx-5 my-4" />
 
@@ -20,7 +20,11 @@ function Navbar() {
           </li>
 
           <li className="nav-item my-2">
-            <a className="btn-invest mx-2 px-2 py-1 " aria-current="page" href="#">INVEST NOW</a>
+            {flag? 
+            <Link to={"/"} className="btn-invest mx-2 px-2 py-1 " aria-current="page" href="#">d5396886...k21</Link>
+            :
+            <Link to={"/invest"} className="btn-invest mx-2 px-2 py-1 " aria-current="page" href="#">INVEST NOW</Link>
+          }
           </li>
 
 

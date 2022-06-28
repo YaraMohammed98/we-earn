@@ -3,7 +3,7 @@ import Single from "./Single";
 
 const About = () => {
   return (
-    <div className="dark-color d-flex flex-column align-items-center justify-content-center single-container">
+    <div className="d-flex flex-column align-items-center justify-content-center single-container header-bg">
      <div>
       <Single
         img="single1.svg"
