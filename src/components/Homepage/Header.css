@@ -19,8 +19,9 @@ video {
   .content {
     position:absolute;
     width: 100%;
+    padding-top: 150px;
     height: 100%;
-    top: 0;
+    top:0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,5 +34,6 @@ p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header-txt{
-    font-size:77px;
+    /* font-size:77px; */
+    font-size: 3rem;
 }

@@ -1,8 +1,8 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 .App {
   text-align: center;
@@ -130,6 +130,14 @@ input[type="checkbox"]:checked + label:before {
 
 }
 
+.continue{
+  color: #1DBCF3;
+  border: 2px #1DBCF3 solid;
+  background-color: white;
+  border-radius: 25px;
+
+}
+
 .header-item:hover {
   color: #1DBCF3 !important ;
 }
@@ -143,7 +151,7 @@ input[type="checkbox"]:checked + label:before {
 }
 .profit-card{
   border-radius: 25px;
-  overflow: hidden;
+
 }
 .profit-txt{
   font-size: 18px;
@@ -215,6 +223,55 @@ input[type="checkbox"]:checked + label:before {
   color:#1DBCF3
 }
 
+.parent{
+  position: relative;
+}
+.parent button {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  transition: all .3s ease-in-out;
+  box-shadow: none !important;
+}
+
+.parent button.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #2B2D42;
+  color: #fff;
+}
+.parent button.active:hover {
+  background-color: #2B2D42;
+  color: #fff;
+}
+
+
+
+.dropdown{
+  position: absolute;
+  top:0%;
+  width: 100%;
+  z-index:1;
+  border-radius: 25px;
+  transition: all .3s ease-in-out;
+
+
+}
+
+
+@media only screen and (min-width: 768px) and  (max-width: 991px){
+  .profile-mini-container{
+    width: 816px !important;
+  }
+  .profile-mini-container + p {
+    width: 816px !important;
+
+  }
+}
+
+::placeholder{
+  font-weight:bold;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

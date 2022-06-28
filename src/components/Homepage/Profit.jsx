@@ -33,7 +33,7 @@ function Profit() {
                         </div>
 
                     </div>
-                    <h2>YOUR RESULTS</h2>
+                    <h2 className="text-center">YOUR RESULTS</h2>
                     <div className="row mb-5 flex-wrap">
                         <div className="col-lg-6 d-flex mb-4 justify-content-center  align-items-center">
                             <span className="bg-lightgrey p-3 fs-5">Starting Daily Profit</span>
@@ -47,8 +47,8 @@ function Profit() {
                         </div>
 
                     </div>
-
-                    <button className="btn-main py-2 px-5 btn-lg fs-4 btn-hover">INVEST NOW</button>
+<div className="text-center">                    <button className="btn-main py-2 px-5 btn-lg fs-4 btn-hover ">INVEST NOW</button>
+</div>
                     <p className="py-3 fw-bold profit-txt"> INFORMATION: The values shown in the Profit Calculator are for informational purposes only.
 The actual profit rates may vary</p>
                 </div>
