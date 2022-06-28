@@ -89,7 +89,9 @@ input[type="checkbox"]:checked + label:before {
   left: 3px;
 }
 
-.single-container{
+.close{
+  border: none;
+  border-radius: 25px;
 }
 .bg-lightgrey{
   background-color: #cccccc;

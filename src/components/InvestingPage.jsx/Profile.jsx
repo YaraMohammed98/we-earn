@@ -66,7 +66,7 @@ const Profile = () => {
                     </div>
                     <div className="col-12 d-flex justify-content-between">
                         <a href="#" className="profile-btn"><i className="fa-solid fa-copy"></i><span className="mx-2">COPY REFERRAL LINK</span></a>
-                        <button className={`nav-link text-dark btn`} data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="fa-solid fa-gear mx-2"></i><span className="mx-2">SETTINGS</span></button>
+                        <button className={`nav-link text-dark btn `} data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="fa-solid fa-gear mx-2"></i><span className="mx-2">SETTINGS</span></button>
                     </div>
                 </div>
             </div>
@@ -92,12 +92,12 @@ const Profile = () => {
 
 
 
-        <div className="modal fade " id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog">
             <div className="modal-content">
             <div className="modal-header">
                 <h5 className="modal-title" id="exampleModalLabel">SETTINGS</h5>
-                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" className="text-white close px-2 main-bg" data-bs-dismiss="modal" aria-label="Close">X</button>
             </div>
             <div className="modal-body">
                 <p>Your address</p>
@@ -106,7 +106,7 @@ const Profile = () => {
                 <a className="text-decoration-none main-color fw-bold" style={{fontSize : "12px"}}>https://www.weearn.io/v2/?ref=0xef97c6ba089770b230e89009787fe3415e7137d7</a>
                 <p style={{fontSize : "15px"}}>Set a nickname to hide your public address from referral links</p>
                 <div className="col-12 d-flex align-items-center w-100">
-                    <input className="form-control w-75" type="number" placeholder="Type your Nickname" />
+                    <input className="form-control w-75" type="text" placeholder="Type your Nickname" />
                     <span style={{fontSize:"11px" , height:"40px"}} className="main-bg text-white p-2 reinvest-span fw-bold flex-fill">SAVE CHANGES</span>
                 </div>
             <p className="fw-bold m-2 " style={{color:"#E73B9B" , fontSize:"13px"}}>setting new Nickname is currently disabled.we are working hard to improve this features</p>
