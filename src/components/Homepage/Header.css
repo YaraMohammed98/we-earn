@@ -1,6 +1,7 @@
 video-container{
   position: relative;
-  height: 100vh;
+  overflow: hidden;
+  
 
 }
 video {
@@ -18,10 +19,10 @@ video {
 
   .content {
     position:absolute;
-    width: 100%;
-    padding-top: 150px;
-    height: 100%;
-    top:0;
+    bottom: 0;
+    left: 0;
+    top: 150px;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,10 +31,10 @@ video {
   }
   
 p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header-txt{
     /* font-size:77px; */
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
