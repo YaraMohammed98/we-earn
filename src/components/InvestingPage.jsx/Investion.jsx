@@ -10,7 +10,7 @@ import Footer from '../Footer'
 
 const Investion = () => {
     return (
-        <>
+        <div className='inv-container'>
             <Navbar flag={true}/> 
             <Profile/>
             <Deposit/>
@@ -19,7 +19,7 @@ const Investion = () => {
             <Airdrops/>
             <AirdropStatistics/>
             <Footer/>
-        </>
+        </div>
     )
 }
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Navbar({flag}) {
   return (
 
-    <nav className={`navbar  navbar-expand-lg  py-3 ${flag ? "header-bg":""}`}>
+    <nav className={`navbar navbar-expand-lg  py-3 ${flag ? "header-bg":""}`}>
     <div className="container">
       <img src={reqSvgs["logo.svg"]} style={{width:"100px"}} className="mx-5 my-4" />
       <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@ function Navbar({flag}) {
   
 
      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav offset-5">
+        <ul className="navbar-nav text-center m-auto">
           <li className="nav-item">
             <a className="nav-link active header-item text-white " aria-current="page" href="#">ABOUT US</a>
           </li>

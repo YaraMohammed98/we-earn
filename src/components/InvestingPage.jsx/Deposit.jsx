@@ -7,7 +7,7 @@ const Deposit = () => {
   
   return (
     <div className="profit-bg d-flex flex-column justify-content-center align-items-center py-5 profile-container" >
-    <div className="profit-card col-lg-8  bg-white profile-up">
+    <div className="profit-card col-lg-8 col-md-12 bg-white profile-up">
       <Card title="MAKE A DEPOSIT" />
       <div className="card-body px-5 text-start">
         <div className="container ">
