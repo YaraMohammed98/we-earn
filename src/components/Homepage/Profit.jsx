@@ -2,8 +2,8 @@ import Card from "../Card";
 
 function Profit() {
   return(
-    <div className="profit-bg d-flex flex-column justify-content-center align-items-center profit pb-5">
-              <p>Calculate your daily passive income considering a reinvestment period</p>
+    <div className="profit-bg d-flex flex-column justify-content-center align-items-center profit pb-5 mt-5">
+              <p className="mt-5">Calculate your daily passive income considering a reinvestment period</p>
 
      <div className="profit-card col-lg-8 shadow bg-white">
 
